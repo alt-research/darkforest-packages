@@ -11,6 +11,7 @@
   "scripts": {
     "prepublishOnly": "npm run build && npm run docs",
     "build": "tsc -p .",
+    "prepare": "yarn build",
     "test": "exit 0",
     "lint": "eslint .",
     "format": "prettier --write .",
