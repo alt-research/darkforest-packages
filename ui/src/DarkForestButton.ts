@@ -85,8 +85,10 @@ export class DarkForestButton extends LitElement {
       }
 
       .disabled {
-        color: ${unsafeCSS(dfstyles.colors.subtext)};
-        border-color: ${unsafeCSS(dfstyles.colors.border)};
+        // color: ${unsafeCSS(dfstyles.colors.subtext)};
+        // border-color: ${unsafeCSS(dfstyles.colors.border)};
+        color: #444;
+        border-color: #444;
         background: none;
         filter: none;
       }
